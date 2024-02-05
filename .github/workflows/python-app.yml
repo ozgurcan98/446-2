@@ -31,3 +31,7 @@ jobs:
       if: always()
       run: |
         pytest test_KdV.py
+    - name: Test script with pytest
+      if: always()
+      run: |
+        pytest test_SHE.py
