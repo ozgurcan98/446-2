@@ -31,3 +31,7 @@ jobs:
       if: always()
       run: |
         pytest test_soundwaves.py
+    - name: Test script with pytest
+      if: always()
+      run: |
+        pytest test_CGL.py
